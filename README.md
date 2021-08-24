@@ -17,8 +17,8 @@ The app has two main Panels: Registrations and Manage Attendance.
 ## Directory structure
 
 ![Directories-mine](https://user-images.githubusercontent.com/41962976/130661649-0128a914-654f-48e3-bb15-f27de1dd17b5.png)
-
- **./TrainingImage**                      :       contains the training data images and unrecognized student’s directory.  
+<p align="justify">
+**./TrainingImage**                       :       contains the training data images and unrecognized student’s directory.  
 **./StudentDetails**                      :       contains the Student details such as ID and name with serial numbers.  
 **./Attendance**                          :       contains the Attendance css files sorted as per the date.   
 **./TrainingImageLabel**                  :       contains the Recognizer model and Files contains admin password and emails.  
@@ -26,6 +26,7 @@ The app has two main Panels: Registrations and Manage Attendance.
 **./src**                                 :       contains the images and fonts that are used in the project.  
 **./main.py**                             :       python code of the project.  
 **./haarcascade frontalface default.xml** :       Haar Cascade classifiers are an ef- fective way for object detection.  
+</p>
 
 ## Flow of the Project
 
