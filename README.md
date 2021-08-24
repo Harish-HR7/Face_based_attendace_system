@@ -18,14 +18,14 @@ The app has two main Panels: Registrations and Manage Attendance.
 
 ![Directories-mine](https://user-images.githubusercontent.com/41962976/130661649-0128a914-654f-48e3-bb15-f27de1dd17b5.png)
 
- **./TrainingImage** : contains the training data images and unrecognized student’s directory.  
-**./StudentDetails** : contains the Student details such as ID and name with serial numbers.  
-**./Attendance** : contains the Attendance css files sorted as per the date.   
-**./TrainingImageLabel** : contains the Recognizer model and Files contains admin password and emails.  
-**./Attendance Excel** : contains the Student’s attendance excel sheets sorted as per the date.  
-**./src** : contains the images and fonts that are used in the project.  
-**./main.py** : python code of the project.  
-**./haarcascade frontalface default.xml** : Haar Cascade classifiers are an ef- fective way for object detection.  
+ **./TrainingImage**                      :       contains the training data images and unrecognized student’s directory.  
+**./StudentDetails**                      :       contains the Student details such as ID and name with serial numbers.  
+**./Attendance**                          :       contains the Attendance css files sorted as per the date.   
+**./TrainingImageLabel**                  :       contains the Recognizer model and Files contains admin password and emails.  
+**./Attendance Excel**                    :       contains the Student’s attendance excel sheets sorted as per the date.  
+**./src**                                 :       contains the images and fonts that are used in the project.  
+**./main.py**                             :       python code of the project.  
+**./haarcascade frontalface default.xml** :       Haar Cascade classifiers are an ef- fective way for object detection.  
 
 ## Flow of the Project
 
@@ -33,7 +33,7 @@ The app has two main Panels: Registrations and Manage Attendance.
 
 **Four phases** :  
   
-**1. Database Creation** : We take images of a person during the enrollment process, as well as his/her ID and Name. Database is created by the images from live video stream of users.  
-**1. Face detection** : Face detection is performed by Haar Cascades and recognition is performed using Local Binary Pattern Histogram (LBPH) algorithm, during enrolling of a user, we  take multiple images of a user along with his/her id and name also.   
-**1. Face recognition** : Each student’s/employee’s presence will be updated in the database. The last step is to find the person in our database of known people who has closest measurements of the test image.  
-**1. Attendance updation** : After the completion of the whole process the if the detected face is found in the database, user is recorded in the excel sheet and displayed on the GUI with timestamp. Attendance sheet will be mailed to administrator of that particular day on clicking the button.  
+1. **Database Creation** : We take images of a person during the enrollment process, as well as his/her ID and Name. Database is created by the images from live video stream of users.  
+1. **Face detection** : Face detection is performed by Haar Cascades and recognition is performed using Local Binary Pattern Histogram (LBPH) algorithm, during enrolling of a user, we  take multiple images of a user along with his/her id and name also.   
+1. **Face recognition** : Each student’s/employee’s presence will be updated in the database. The last step is to find the person in our database of known people who has closest measurements of the test image.  
+1. **Attendance updation** : After the completion of the whole process the if the detected face is found in the database, user is recorded in the excel sheet and displayed on the GUI with timestamp. Attendance sheet will be mailed to administrator of that particular day on clicking the button.  
