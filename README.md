@@ -31,11 +31,9 @@ The app has two main Panels: Registrations and Manage Attendance.
 
 ![FRAS FD](https://user-images.githubusercontent.com/41962976/130662207-ac1aa2c6-2fd7-45cf-b427-46b504be84ad.jpg)
 
-**Four phases** :
-
-**1. Database Creation** : We take images of a person during the enrollment process, as well as his/her ID and Name. Database is created by the images from live video stream of users.
-**1. Face detection** : Face detection is performed by Haar Cascades and recognition is performed using Local Binary Pattern Histogram (LBPH) algorithm, during enrolling of a user, we  take multiple images of a user along with his/her id and name also. 
-**1. Face recognition** : Each student’s/employee’s presence will be updated in the database. The last step is to find the person in our database of known people who has closest measurements of the test image.
-**1. Attendance updation** : After the completion of the whole process the if the detected face is found in the database, user is recorded in the excel sheet and displayed on the GUI with timestamp. Attendance sheet will be mailed to administrator of that particular day on clicking the button.
-
-
+**Four phases** :  
+  
+**1. Database Creation** : We take images of a person during the enrollment process, as well as his/her ID and Name. Database is created by the images from live video stream of users.  
+**1. Face detection** : Face detection is performed by Haar Cascades and recognition is performed using Local Binary Pattern Histogram (LBPH) algorithm, during enrolling of a user, we  take multiple images of a user along with his/her id and name also.   
+**1. Face recognition** : Each student’s/employee’s presence will be updated in the database. The last step is to find the person in our database of known people who has closest measurements of the test image.  
+**1. Attendance updation** : After the completion of the whole process the if the detected face is found in the database, user is recorded in the excel sheet and displayed on the GUI with timestamp. Attendance sheet will be mailed to administrator of that particular day on clicking the button.  
